@@ -39,7 +39,7 @@ int egttools::FinitePopulations::behaviors::twoActions::Detective::get_action(si
     }
 }
 std::string egttools::FinitePopulations::behaviors::twoActions::Detective::type() {
-    return "NFGStrategies::AllC";
+    return "NFGStrategies::Detective";
 }
 bool egttools::FinitePopulations::behaviors::twoActions::Detective::is_stochastic() {
     return false;
